@@ -30,11 +30,7 @@ export default function Navbar() {
 
         {/* Desktop Buttons */}
         <div className="hidden md:flex items-center gap-4">
-          <a href="/resume.pdf" 
-             target="_blank"
-             className="px-5 py-2.5 border border-zinc-800 hover:border-zinc-700 bg-zinc-900/50 hover:bg-zinc-800/50 rounded-2xl font-medium transition-all flex items-center gap-2 text-sm text-zinc-200">
-            <span>📄</span> Resume
-          </a>
+
           <a href="#contact" 
              className="px-6 py-2.5 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white rounded-2xl font-semibold text-sm transition-all duration-300 shadow-md shadow-indigo-500/10 hover:shadow-indigo-500/25 active:scale-98">
             Let's Talk
@@ -62,14 +58,6 @@ export default function Navbar() {
             <a href="#certifications" onClick={closeMenu} className="text-zinc-300 hover:text-white transition-colors">Achievements</a>
             
             <div className="w-4/5 h-[1px] bg-zinc-900 my-2"></div>
-
-            <a href="/resume.pdf" 
-               target="_blank"
-               onClick={closeMenu}
-               className="w-4/5 py-3 border border-zinc-800 hover:border-zinc-700 bg-zinc-900/50 hover:bg-zinc-800/50 rounded-2xl font-semibold flex items-center justify-center gap-2 text-sm text-zinc-200">
-              <span>📄</span> Download Resume
-            </a>
-            
             <a href="#contact" 
                onClick={closeMenu}
                className="w-4/5 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white rounded-2xl font-bold flex items-center justify-center text-sm shadow-md shadow-indigo-500/10">
